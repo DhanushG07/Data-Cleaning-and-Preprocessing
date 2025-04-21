@@ -1,22 +1,22 @@
 # Data Analyst Internship - Task 1: Data Cleaning and preprocessing  
 
 ## Overview
-The repository contains my submission for task 1 of the Data analyst internship. The objective was to clean and perprocess a raw dataset by identifing and resolving common data quality issues including missing values, duplicate records, and incorrect data types 
+The repository contains my submission for task 1 of the Data analyst internship. The objective was to clean and preprocess a raw dataset by identifying and resolving common data quality issues including missing values, duplicate records, and incorrect data types 
 
 ## Dataset 
-- **Name**: Netflix Moives and TV shows
+- **Name**: Netflix Movies and TV shows
 - **Source**: [kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 - **Format**: CSV
 
-## Tools & Tenchnologies
-- Python (Pandas, NumPY)
+## Tools & Technologies
+- Python (Pandas, NumPy)
 - Jupyter Notebook (Google Colab)
 - Github
 
-## cleaning & perprocessing steps
+## cleaning & preprocessing steps
 1. **Handle Missing Values**
- - Identifing missing values using '.isnull().sum()'
- - Dropped or filled nulls using '.drop()' or 'fillna()' based on ccolumn context
+ - Identifying missing values using '.isnull().sum()'
+ - Dropped or filled nulls using '.drop()' or 'fillna()' based on column context
  
 2. **Remove Duplicates**
  - Applied '.drop_duplicates()' to remove repeated entries
@@ -26,7 +26,7 @@ The repository contains my submission for task 1 of the Data analyst internship.
  - Replace inconsistent text entries with unified labels
  
 4. **Data Format Consistency**
- - Converted 'data_added' to 'datatime' using 'pd.to_datatime()' to uniform 'DD-MM-YYYY' format
+ - Converted 'date_added' to 'datetime' using 'pd.to_datatime()' to uniform 'DD-MM-YYYY' format
 
 5. **Rename Columns**
  - Change column names to lowercase and replace space with underscores
@@ -39,13 +39,13 @@ The repository contains my submission for task 1 of the Data analyst internship.
 - 'Cleaned_dataset.csv': Final cleaned dataset
 - 'task1_data_cleaning.ipynb': Notebook with all data cleaning steps
 
-## Reponsitory Structure 
+## Repository Structure 
 
 Data-Analyst-Internship-Task-1/
 - raw_dataset.csv 
 - cleaned_dataset.csv
 - task1_data_cleaning.ipynb
-- README.MD
+- README.md
 
 ## Author 
 - **NAME**:Dhanush Guduru
