@@ -9,24 +9,24 @@ The repository contains my submission for task 1 of the Data analyst internship.
 - **Format**: CSV
 
 ## Tools & Technologies
-- Python (Pandas, NumPy)
-- Jupyter Notebook (Google Colab)
+- Python (`Pandas, NumPy`)
+- Jupyter Notebook (`Google Colab`)
 - Github
 
 ## cleaning & preprocessing steps
 1. **Handle Missing Values**
- - Identifying missing values using '.isnull().sum()'
- - Dropped or filled nulls using '.drop()' or 'fillna()' based on column context
+ - Identifying missing values using `.isnull().sum()`
+ - Dropped or filled nulls using `.drop()` or `fillna()` based on column context
  
 2. **Remove Duplicates**
- - Applied '.drop_duplicates()' to remove repeated entries
+ - Applied `.drop_duplicates()` to remove repeated entries
 
 3. **Standardized Categorical Data**
- - Fixed inconsistencies in 'type', 'country', and 'rating' using '.str.lower().strip()
+ - Fixed inconsistencies in `type`, `country`, and `rating` using `.str.lower().strip()`
  - Replace inconsistent text entries with unified labels
  
 4. **Data Format Consistency**
- - Converted 'date_added' to 'datetime' using 'pd.to_datatime()' to uniform 'DD-MM-YYYY' format
+ - Converted 'date_added' to `datetime` using `pd.to_datatime()` to uniform `DD-MM-YYYY` format
 
 5. **Rename Columns**
  - Change column names to lowercase and replace space with underscores
@@ -36,8 +36,8 @@ The repository contains my submission for task 1 of the Data analyst internship.
 
 ## output
 
-- 'Cleaned_dataset.csv': Final cleaned dataset
-- 'task1_data_cleaning.ipynb': Notebook with all data cleaning steps
+- `Cleaned_dataset.csv`: Final cleaned dataset
+- `task1_data_cleaning.ipynb`: Notebook with all data cleaning steps
 
 ## Repository Structure 
 
